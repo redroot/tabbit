@@ -2,6 +2,13 @@
 
 Parse guitar tabs into actual notes. Very much WIP
 
+### To-do
+
++ parser tests
++ drop D example
++ proper readme
++ read from file?
+
 ### Examples
 
 A few examples can be run if you fancy checkout the repo
