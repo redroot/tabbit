@@ -1,4 +1,3 @@
-require 'tabbit/notes'
 module Tabbit
   class Instrument
     include Tabbit::Notes

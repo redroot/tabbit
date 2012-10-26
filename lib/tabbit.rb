@@ -1,17 +1,8 @@
-# Tabula
-# 
-# allows use to use tabs to play a song through micromdi
-#
-# ----------------
-# -----------------
-# -5-5-2-----------
-# -5-~-2-3---------
-# -3-~-0-3---------
-# ---3---1---------
+require File.expand_path(File.join(File.dirname(__FILE__), *%w[tabbit parser]))
+require File.expand_path(File.join(File.dirname(__FILE__), *%w[tabbit notes]))
+require File.expand_path(File.join(File.dirname(__FILE__), *%w[tabbit instrument]))
+require File.expand_path(File.join(File.dirname(__FILE__), *%w[tabbit instruments guitar]))
+require File.expand_path(File.join(File.dirname(__FILE__), *%w[tabbit players]))
 
-# - map tabs to the correct notes
-# - someway to work out a time signature / for now default to a set beat eg. 0.5
-
-$:.push "tabbit"
-require "tabbit/notes"
-require "tabbit/instruments"
+module Tabbit
+end
